@@ -1,0 +1,76 @@
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: bold;
+  	color: #777777;
+  	margin: 40px 0px 20px;
+  	text-align: center;
+}
+
+.contentPanel {
+	margin: 0px 0px 20px;
+}
+
+.buttonPanel {
+  	margin: auto;
+  	text-align: center;
+}
+
+.labelPanel {
+	margin: auto;
+	text-align: center;
+}
+
+.messageLabel {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.messageAnchor {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.liveStreamListPanel {
+	margin-right: 100px;
+}
+
+.LiveStreamListLabel {
+	font-size: 1.5em;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
