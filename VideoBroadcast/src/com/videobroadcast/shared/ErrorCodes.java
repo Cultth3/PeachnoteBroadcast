@@ -6,6 +6,7 @@ package com.videobroadcast.shared;
 
 public class ErrorCodes {
 
-	public static final String ERROR_LIVESTREAMING_NOT_ACTIVATED = "Live streaming not activated";
+	public static final String ERROR_LIVESTREAMING_NOT_ACTIVATED = "Live streaming not enabled";
+	public static final String BACKEND_ERROR = "Backend Error";
 	
 }

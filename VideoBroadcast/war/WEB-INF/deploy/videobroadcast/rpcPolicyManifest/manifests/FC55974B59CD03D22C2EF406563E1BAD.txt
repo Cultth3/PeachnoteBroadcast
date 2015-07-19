@@ -1,2 +1,0 @@
-serviceClass: com.videobroadcast.client.VideoBroadcastService
-path: AFF87DD7A1275B8CA049781CB128F71A.gwt.rpc

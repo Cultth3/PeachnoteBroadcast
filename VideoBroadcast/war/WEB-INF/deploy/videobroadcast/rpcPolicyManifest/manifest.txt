@@ -1,2 +1,4 @@
 # Module videobroadcast
 # RPC service class, partial path of RPC policy file
+com.videobroadcast.client.TVListService, EA1BC52B71122EEB975E7EA82A788A85.gwt.rpc
+com.videobroadcast.client.VideoBroadcastService, 462F3390A54D52C3B4C9F82237F5C9A2.gwt.rpc

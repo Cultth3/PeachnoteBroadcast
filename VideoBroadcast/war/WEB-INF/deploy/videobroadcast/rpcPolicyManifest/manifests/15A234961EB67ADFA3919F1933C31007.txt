@@ -1,0 +1,2 @@
+serviceClass: com.videobroadcast.client.TVListService
+path: EA1BC52B71122EEB975E7EA82A788A85.gwt.rpc

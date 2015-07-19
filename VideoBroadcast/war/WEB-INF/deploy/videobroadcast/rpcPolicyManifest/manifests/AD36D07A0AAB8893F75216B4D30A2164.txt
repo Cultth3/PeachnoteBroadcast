@@ -1,0 +1,2 @@
+serviceClass: com.videobroadcast.client.VideoBroadcastService
+path: 462F3390A54D52C3B4C9F82237F5C9A2.gwt.rpc

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore-indexes  autoGenerate="true">
+
+ <datastore-index kind="BroadcastEntity" ancestor="false" source="manual"> <property name="lifeCycleStatus" direction="asc"/> 
+ <property name="stayOnIMSLP" direction="asc"/> 
+ <property name="deletionTime" direction="asc"/> 
+ </datastore-index>
+ 
+</datastore-indexes>

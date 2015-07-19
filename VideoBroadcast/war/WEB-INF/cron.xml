@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+
+
+<cron>
+<url>/mycronjob</url>
+<description>Cron Job 1: Garbage Collection for Broadcast datastore - Delete references to non-standardList videos after 
+MAX_TIME_IN_DATASTORE </description>
+<schedule>every 180 minutes</schedule>
+</cron>
+
+<cron>
+<url>/mycronjob2</url>
+<description>Cron Job 2: Garbage Collection for Broadcast datastore - Delete unavailable videos, so references to videos that have been deleted or set to "private" by users </description>
+<schedule>every 360 minutes</schedule> 
+</cron>
+
+<cron>
+<url>/mycronjob3</url>
+<description>Cron Job 3: Garbage Collection for Broadcast datastore - Delete too short-time broadcasts that should have been deleted by client </description>
+<schedule>every 500 minutes</schedule>
+</cron>
+
+</cronentries>

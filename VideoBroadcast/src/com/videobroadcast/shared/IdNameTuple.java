@@ -7,7 +7,7 @@ import com.google.gwt.user.client.rpc.IsSerializable;
  * for the RPC call in the clientService's method loadBroadcastListFromDatastore()
  */
 
-public class IdNameTuple implements IsSerializable{
+public class IdNameTuple implements IsSerializable {
 
 	public String id;
 	public String channelName;

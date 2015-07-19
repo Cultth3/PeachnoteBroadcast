@@ -11,21 +11,71 @@
     <servlet-class>com.videobroadcast.server.VideoBroadcastServiceImpl</servlet-class>
   </servlet>
   
-  <!--
-  <servlet>
-    <servlet-name>AbstractAuthorizationCodeServlet</servlet-name>
-    <servlet-class>com.google.api.client.extensions.servlet.auth.oauth2.AbstractAuthorizationCodeServlet</servlet-class>
-  </servlet> 
-  
-  <servlet>
-    <servlet-name>AbstractAuthorizationCodeCallbackServlet</servlet-name>
-    <servlet-class>com.google.api.client.extensions.servlet.auth.oauth2.AbstractAuthorizationCodeCallbackServlet</servlet-class>
-  </servlet>
-  -->
-  
   <servlet-mapping>
     <servlet-name>vbServlet</servlet-name>
     <url-pattern>/videobroadcast/videobroadcastservice</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>scheduledTaskServlet</servlet-name>
+    <servlet-class>com.videobroadcast.server.VideoBroadcastScheduledTaskServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>scheduledTaskServlet</servlet-name>
+	<url-pattern>/mycronjob</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>scheduledTaskServlet2</servlet-name>
+    <servlet-class>com.videobroadcast.server.VideoBroadcastScheduledTaskServlet2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>scheduledTaskServlet2</servlet-name>
+	<url-pattern>/mycronjob2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>scheduledTaskServlet3</servlet-name>
+    <servlet-class>com.videobroadcast.server.VideoBroadcastScheduledTaskServlet3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>scheduledTaskServlet3</servlet-name>
+	<url-pattern>/mycronjob3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>IMSLPListServlet</servlet-name>
+    <servlet-class>com.videobroadcast.server.IMSLPListServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>IMSLPListServlet</servlet-name>
+	<url-pattern>/imslplistservlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 
+  <servlet>
+    <servlet-name>TVSectionVideoListServlet</servlet-name>
+    <servlet-class>com.videobroadcast.server.TVSectionVideoListServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>TVSectionVideoListServlet</servlet-name>
+	<url-pattern>/tvsectionvideolistservlet</url-pattern>
+  </servlet-mapping>
+  -->
+  
+   <servlet>
+    <servlet-name>TVSectionVideoListServlet</servlet-name>
+    <servlet-class>com.videobroadcast.server.TVListServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>TVSectionVideoListServlet</servlet-name>
+	<url-pattern>videobroadcast/tvsectionvideolistservletremote</url-pattern>
   </servlet-mapping>
   
   

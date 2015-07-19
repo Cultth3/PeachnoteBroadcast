@@ -9,6 +9,7 @@
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
 
+
   <!-- Inherit the default GWT style sheet.  You can change       -->
   <!-- the theme of your GWT application by uncommenting          -->
   <!-- any one of the following lines.                            -->
@@ -16,17 +17,26 @@
   <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+  
+  <stylesheet src='/VideoBroadcast.css' /> <!-- Important to overwrite default gwt css theme styles -->
 
   <!-- Other module inherits                                      -->
   <inherits name="open.pandurang.gwt.youtube.YouTube"/>
   <inherits name="com.google.api.gwt.oauth2.OAuth2"/>
+  <inherits name="com.google.gwt.resources.Resources"/>
+ 
+  
+   
+  <!-- <inherits name="com.videobroadcast.resources.Resources"/> -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='com.videobroadcast.client.VideoBroadcast'/>
+  <entry-point class='com.videobroadcast.client.VideoBroadcastEntryPoint'/>
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>
   <source path='shared'/>
+  <source path='resources.images'/>
+  <resource path='resources'/>
 
   <!-- allow Super Dev Mode -->
   <add-linker name="xsiframe"/>
